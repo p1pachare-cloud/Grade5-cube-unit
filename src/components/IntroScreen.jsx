@@ -22,7 +22,7 @@ export default function IntroScreen({ onStart, audioEnabled }) {
   return (
     <div className="intro-screen">
       <div className="intro-badge">
-        Intellia SG • Grade 5 Mathematics
+        Grade 5 Mathematics
       </div>
 
       <h1 className="intro-title">
