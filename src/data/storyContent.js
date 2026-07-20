@@ -1,0 +1,60 @@
+export const STORY_PANELS = [
+  {
+    id: 1,
+    title: "1. The Science Fair Crate 📦",
+    text: "John and his friend Mike are building a model shipping crate for the school science fair.",
+    highlight: "Goal: Measure the space inside the crate using standard unit cubes!",
+    dimensions: { length: 5, width: 3, height: 2 },
+    missingSlot: null,
+  },
+  {
+    id: 2,
+    title: "2. Dimensions & Packing 📐",
+    text: "The crate is 5 cubes long, 3 cubes wide, and 2 cubes high. Let's fill it with unit cubes and count them!",
+    highlight: "Dimensions: 5 long × 3 wide × 2 tall",
+    dimensions: { length: 5, width: 3, height: 2 },
+    missingSlot: null,
+  },
+  {
+    id: 3,
+    title: "3. Layer 1: Base Area 🧱",
+    text: "First layer: 5 cubes long × 3 cubes wide = 15 unit cubes covering the bottom base.",
+    highlight: "Base Area = 5 × 3 = 15 cubes per layer",
+    dimensions: { length: 5, width: 3, height: 1 },
+    missingSlot: null,
+  },
+  {
+    id: 4,
+    title: "4. Total Volume: 2 Layers 🌟",
+    text: "Two layers of 15 is 15 + 15 = 30 unit cubes altogether! That's the crate's VOLUME — 30 cubic units!",
+    highlight: "Volume = 5 × 3 × 2 = 30 cubic units (cm³)",
+    dimensions: { length: 5, width: 3, height: 2 },
+    missingSlot: null,
+  },
+  {
+    id: 5,
+    title: "5. Sofia's Brazil Fish Tank 🐠",
+    text: "Sofia, visiting from Brazil, shows her fish tank: 6 cubes long, 2 cubes wide, and 3 cubes tall.",
+    highlight: "Tank Dimensions: 6 × 2 × 3",
+    dimensions: { length: 6, width: 2, height: 3 },
+    missingSlot: null,
+  },
+  {
+    id: 6,
+    title: "6. Calculating Capacity 💧",
+    text: "6 × 2 × 3 = 36. Sofia's tank holds 36 cubic units of water!",
+    highlight: "Volume = 6 × 2 × 3 = 36 cubic units!",
+    dimensions: { length: 6, width: 2, height: 3 },
+    missingSlot: null,
+  },
+  {
+    id: 7,
+    title: "7. Comparing Volumes 🎁",
+    text: "Yuki and Amara compare two gift boxes: Box A (4×3×2 = 24) vs Box B (3×3×3 = 27). Box B holds more space!",
+    highlight: "Volume Comparison: 24 cm³ vs 27 cm³",
+    dimensions: { length: 3, width: 3, height: 3 },
+    missingSlot: null,
+  },
+];
+
+export default STORY_PANELS;
